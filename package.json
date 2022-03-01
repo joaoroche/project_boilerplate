@@ -11,11 +11,6 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "src/**/*": [
       "npm run lint --fix",
